@@ -1,31 +1,20 @@
 # POKEMON_TP
 API REST FULL sql/python/json (2018)
 
-Auteur:
+# AUTHOR:
 christian collignon (substancegrise@gmail.com)
 
-copyright :
+# SHORT DESCRIPTION
+Création d'une API REST FULL pour un sujet de travaux patriques de cours de Mehdi Aberkane (https://www.mehdi-aberkane.fr/), formateur à l'école SQLI Paris
+
+# INSTALLATION & UTILISATION
+- Téléchargement de l'ensemble des fichiers
+- Mise en place de la base de données dossier (database)
+
+# LIBRARY
+hug
+beautifulsoup
+mysql-connector
+
+# COPYRIGHT
 nintendo
-
-
-État du projet:
-En cours de realisation..
-
-Rapide description:
-Travaux patriques, sujet de cours de Mehdi Aberkane (https://www.mehdi-aberkane.fr/) école SQLI Paris
-
-Mise ne place:
-Installation de la database pokemone 
-Ouverture des fichiers dans un IDE pour python
-Test des URL's dans logiciel type postman (https://www.getpostman.com/apps)
-and good luck...
-
-logiciel:
-database: https://pokemondb.net/pokedex/all
-pycharm: https://www.jetbrains.com/pycharm/
-
-
-
-Documentation courte:
-
-contribution:
