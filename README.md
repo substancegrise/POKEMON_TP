@@ -5,8 +5,8 @@ Auteur:
 christian collignon (substancegrise@gmail.com)
 
 copyright :
-https://pokemondb.net/pokedex/all
-https://www.jetbrains.com/pycharm/
+nintendo
+
 
 État du projet:
 En cours de realisation..
@@ -15,10 +15,16 @@ Rapide description:
 Travaux patriques, sujet de cours de Mehdi Aberkane (https://www.mehdi-aberkane.fr/) école SQLI Paris
 
 Mise ne place:
-Mise en place de database pokemone et ouverture des fichiers .py
-Test dans logiciel type postman (https://www.getpostman.com/apps)
+Installation de la database pokemone 
+Ouverture des fichiers dans un IDE pour python
+Test des URL's dans logiciel type postman (https://www.getpostman.com/apps)
+and good luck...
 
-Licence(s) :
+logiciel:
+database: https://pokemondb.net/pokedex/all
+pycharm: https://www.jetbrains.com/pycharm/
+
+
 
 Documentation courte:
 
