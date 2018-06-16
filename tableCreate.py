@@ -66,7 +66,6 @@ def initTables(cursor):
 
 
 cursor = initTables(cursor)
-#initPokemon()
 
 cursor.close()
 conn.commit()

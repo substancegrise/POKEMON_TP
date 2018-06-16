@@ -11,17 +11,6 @@ cursor = conn.cursor(buffered=True)
 #response = requests.get("https://pokemondb.net/pokedex/all")
 #html = str(response.content)
 
-
-
-# création et écriture du document .html
-
-#fichier = open("data_pokemon.html", "w")
-#fichier.write(html)
-#fichier.close()
-
-
-# lecture dans l'IDL des données de ma page html
-
 fichier = open("data_pokemon.html","r")
 html = fichier.read()
 fichier.close()
@@ -45,9 +34,6 @@ for link in tab.find_all("tr"):
                 tt.append("")
 
 
-
-
-
         if x == 2:
             for type_poke in l.find_all("a"):
 
@@ -62,33 +48,14 @@ for link in tab.find_all("tr"):
                     type_ids.append(cursor.lastrowid)
 
 
-
-
-
-            #Créer le groupe/type si il n"existe pas
-
-
-
-                #Récupérer l'id (PK) du groupe
-
-
-
-
-
         if x == 0 or x > 2:
             tt.append(l.text)
 
         x = x+1
 
-    #Créer le pokemon
-    #Récupérer l'ID (PK) du pokemon
 
-    #Inserer dans la table pivo id du pokemon et id du type
-    #print(tt)
 
     if len(tt) > 0 and tt[1] != "":
-        #alors c'est une transformation
-        #print('transformation')
         cursor.execute("""INSERT INTO pokemon (ref, nom, total, hp, attack, defense, sp_atk, sp_def, speed) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)""", tt)
         pokemon_id = cursor.lastrowid
         for type_id in type_ids:
