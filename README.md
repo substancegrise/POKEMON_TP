@@ -2,23 +2,26 @@
 API REST FULL sql/python/json (2018)
 
 ### DESCRIPTION
-Création d'une API REST FULL pour un sujet de travaux patriques de cours de Mehdi Aberkane (https://www.mehdi-aberkane.fr/), formateur à l'école SQLI Paris
+Création d'une API REST FULL école SQLI Paris
 
 ### INSTALLATION & UTILISATION
 - Téléchargement de l'ensemble des fichiers
-- Mise en place de la base de données dossier sql
-  '''(host="localhost", user="root", password="root", database="pokedex", port=8889)'''
+- Mise en place de la base de données dossier sql dossier database
+  ````host="localhost", user="root", password="root", database="pokedex", port=8889)````
   
-- Execution de la commande
-  '''hug -f api.py'''
+- Execution de la commande dans la console
+```hug -f api.py
+```
   
 - Chemin de lecture
-  '''http://localhost:8000/pokemon''
+````http://localhost:8000/pokemon````
 
 ### LIBRARY
+````
 hug
-[BeautifullSoup 4.x]
+BeautifullSoup 4.x]
 mysql-connector
+````
 
 ### COPYRIGHT
 nintendo
