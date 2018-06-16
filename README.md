@@ -13,15 +13,25 @@ Création d'une API REST FULL école SQLI Paris
 ```hug -f api.py
 ```
   
-- Chemin de lecture
+- Chemin de visualisation des pokemons
+````http://localhost:8000/pokemon/all````
+
+- Chemin de visualisation d'un pokemon
 ````http://localhost:8000/pokemon````
+
+- Chemin d'ajout des pokemons
+````http://localhost:8000/pokemon/add````
+
+- Chemin de suppression des pokemons
+````http://localhost:8000/delete````
 
 ### LIBRARY
 ````
 hug
-BeautifullSoup 4.x]
+BeautifullSoup 4.x
 mysql-connector
 ````
+
 
 ### COPYRIGHT
 nintendo
