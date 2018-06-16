@@ -10,11 +10,10 @@ Création d'une API REST FULL école SQLI Paris
   ````host="localhost", user="root", password="root", database="pokedex", port=8889)````
   
 - Execution de la commande dans la console
-```hug -f api.py
-```
+  hug -f api.py
   
 - Chemin de visualisation des pokemons
-````http://localhost:8000/pokemon/all````
+    http://localhost:8000/pokemon/all
 
 - Chemin de visualisation d'un pokemon
 ````http://localhost:8000/pokemon````
